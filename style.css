@@ -1,24 +1,40 @@
-.titulo{
-    font-family: serif;
-    text-align: center;
-    color: #377ba8;
-    background-color: lightgray;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,500;1,900&display=swap');
+
+body{
+    background-color: #ffa9ae;
 }
 
-.formulario{
-    width: 350px;
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #36345f;
+    background-color: #ff73a1;
+}
+
+#formulario{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    width: 300px;
     padding: 16px;
     border-radius: 10px;
     margin: auto;
-    background-color: #ccc;
+    background-color: #b64e8e;
+    text-align: center;
 }
 
-.formulario .inputs{
+#formulario .inputs{
     width: 200px;
     height: 25px;
     border-radius: 5px; 
     margin-bottom: 20px;
     border: none;
+    background-color: #ff73a1;
+    color: white;
+    padding-left: 10px;
+}
+
+#formulario label{
+    color: white;
 }
 
 #btn{
@@ -26,16 +42,21 @@
     font-weight: bold;
 }
 
-.inputsemail{
-    width: 200px;
-    height: 25px;
-    border-radius: 5px; 
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border: none;
-}
-
 #btn{
     margin-top: 20px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    background-color: #ff73a1;
+    cursor: pointer;
+    color:white;
 }
 
+#btn:hover{
+    background-color: white;
+    color: #ff73a1;
+}
+
+#input{
+    margin-bottom: 20px;
+}
