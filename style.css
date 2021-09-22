@@ -1,0 +1,41 @@
+.titulo{
+    font-family: serif;
+    text-align: center;
+    color: #377ba8;
+    background-color: lightgray;
+}
+
+.formulario{
+    width: 350px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
+
+.formulario .inputs{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    border: none;
+}
+
+#btn{
+    text-align: center;
+    font-weight: bold;
+}
+
+.inputsemail{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+#btn{
+    margin-top: 20px;
+}
+
